@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fintech - Página Principal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="barra-navegacao navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="marca-navegacao navbar-brand" href="#">Fintech</a>
+            <button class="botao-navegacao navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacao" aria-controls="menuNavegacao" aria-expanded="false" aria-label="Alternar navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuNavegacao">
+                <ul class="menu navbar-nav ms-auto">
+                    <li class="item-menu nav-item">
+                        <a class="link-menu nav-link active" href="#">Início</a>
+                    </li>
+                    <li class="item-menu nav-item">
+                        <a class="link-menu nav-link" href="#servicos">Serviços</a>
+                    </li>
+                    <li class="item-menu nav-item">
+                        <a class="link-menu nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="principal bg-light text-center py-5">
+        <div class="container">
+            <h1 class="titulo-principal display-4">Bem-vindo à Fintech</h1>
+            <p class="descricao-principal lead">Soluções financeiras inovadoras para você e sua empresa.</p>
+            <a href="#servicos" class="botao-principal btn btn-primary btn-lg">Saiba Mais</a>
+        </div>
+    </section>
+
+    <section id="servicos" class="servicos py-5">
+        <div class="container">
+            <h2 class="titulo-secao text-center mb-4">Nossos Serviços</h2>
+            <div class="linha row">
+                <div class="col-md-4">
+                    <div class="cartao card border-0 shadow">
+                        <div class="conteudo-cartao card-body text-center">
+                            <h5 class="titulo-cartao">Conta Digital</h5>
+                            <p class="texto-cartao">Abra sua conta digital em minutos e gerencie tudo pelo aplicativo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cartao card border-0 shadow">
+                        <div class="conteudo-cartao card-body text-center">
+                            <h5 class="titulo-cartao">Empréstimos</h5>
+                            <p class="texto-cartao">Taxas competitivas e aprovação rápida para atender suas necessidades.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cartao card border-0 shadow">
+                        <div class="conteudo-cartao card-body text-center">
+                            <h5 class="titulo-cartao">Investimentos</h5>
+                            <p class="texto-cartao">Diversifique seu portfólio com nossas opções de investimento.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contato bg-dark text-light py-5">
+        <div class="container">
+            <h2 class="titulo-secao text-center mb-4">Entre em Contato</h2>
+            <form>
+                <div class="campo-formulario mb-3">
+                    <label for="nome" class="rotulo">Nome</label>
+                    <input type="text" class="entrada-formulario form-control" id="nome" placeholder="Seu Nome">
+                </div>
+                <div class="campo-formulario mb-3">
+                    <label for="email" class="rotulo">E-mail</label>
+                    <input type="email" class="entrada-formulario form-control" id="email" placeholder="Seu E-mail">
+                </div>
+                <div class="campo-formulario mb-3">
+                    <label for="mensagem" class="rotulo">Mensagem</label>
+                    <textarea class="entrada-formulario form-control" id="mensagem" rows="4" placeholder="Sua Mensagem"></textarea>
+                </div>
+                <button type="submit" class="botao-enviar btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="rodape bg-dark text-light text-center py-3">
+        <p class="texto-rodape mb-0">&copy; 2024 Fintech. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
